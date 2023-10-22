@@ -23,7 +23,7 @@
     --fonte-titulo-tamanho-grande-telas-m-p: 40px;
     --fonte-subtitulo-tamanho-grande-telas-m-p: 25px;
     --fonte-titulo-tamanho-medio-telas-m-p: 23px;
-    --fonte-paragrafo-telas-p: 18px;
+    --fonte-paragrafo-telas-m-p: 18px;
     --fonte-footer-tamanho-grande-telas-m-p: 35px;
     --fonte-footer-tamanho-medio-telas-m-p: 20px;
 }
@@ -79,6 +79,97 @@ img {
     .tela-inteira{
         height: 100dvh;
     }
+    .borda{
+        border-radius: 5px;
+    }
+    .espaço{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        padding-bottom: 0.05%;
+        padding-bottom: 0.05%;
+    }
+    .espaço-linha{
+        line-height: 140%;
+    }
+    .fonte-titulo-grande{
+        font-size: var(--fonte-titulo-tamanho-grande-telas-m-p);
+    }
+    .fonte-subtitulo-grande{
+        font-size: var(--fonte-subtitulo-tamanho-grande-telas-m-p);
+    }
+    .fonte-titulo-medio{
+        font-size: var(--fonte-titulo-tamanho-medio-telas-m-p);
+    }
+    .fonte-paragrafo{
+        font-size: var(--fonte-paragrafo-telas-m-p);
+    }
+    .fonte-tamanho-titulo-footer{
+        font-size: var(--fonte-footer-tamanho-grande-telas-m-p);
+    }
+    .fonte-conteudo-footer{
+        font-size: var(--fonte-footer-tamanho-medio-telas-m-p);
+    }
+    #section-02, #icone-caixa-estilo{
+        display: flex;
+    }
+    #section-02{
+        justify-content: center;
+    }
+    #section-02{
+        flex-direction: column;
+    }
+    #icone-caixa-estilo{
+        justify-content: space-evenly;
+    }
+
+    #btn{
+        border-radius: 10px 10px 50px 10px; 
+        box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25); 
+        padding: 3%;
+        padding-right: 5%;
+    }
+    #img-hero-row, img{
+        width: 100%;
+    }
+    #section-02{
+        background-image: linear-gradient(0deg, rgba(13, 13, 13, 0.70) 0%, rgba(13, 13, 13, 0.70) 100%), url('..\\assets\\imagens-varias-roupas.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .icone-rede-social{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media (min-width: 700px) {
+    .padding-top-bottom{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .padding-right-left{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .padding-bottom{
+        padding-bottom: 5%;
+    }
+    .tela-inteira{
+        height: 100dvh;
+    }
+    .borda{
+        border-radius: 5px;
+    }
+    
+    .espaço{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        padding-bottom: 0.05%;
+        padding-bottom: 0.05%;
+    }
+    .espaço-linha{
+        line-height: 160%;
+    }
     .fonte-titulo-grande{
         font-size: var(--fonte-titulo-tamanho-grande-telas-m-p);
     }
@@ -91,24 +182,25 @@ img {
     .fonte-paragrafo{
         font-size: var(--fonte-paragrafo-telas-p);
     }
-    .flex{
+    .fonte-tamanho-titulo-footer{
+        font-size: var(--fonte-footer-tamanho-grande-telas-m-p);
+    }
+    .fonte-conteudo-footer{
+        font-size: var(--fonte-footer-tamanho-medio-telas-m-p);
+    }
+    #icone-caixa-estilo, #hero-row, #hero-row-caixa-estilo, #section-01, #section-02, #section-03, #img-box-section-03, #caixa-texto-estilo-section-03 {
         display: flex;
     }
-    .space-around{
-        justify-content: space-around;
-    }
-    .align-center{
+    #section-02, #hero-row-caixa-estilo, #section-01{
         justify-content: center;
     }
-    .justify-center{
-        align-content: center;
-    }
-    .row{
-        flex-direction: row;
-    }
-    .column{
+    #section-02, #hero-row-caixa-estilo, #section-03{
         flex-direction: column;
     }
+    #icone-caixa-estilo{
+        justify-content: space-evenly;
+    }
+    
 
     #btn{
         border-radius: 10px 10px 50px 10px; 
@@ -116,15 +208,29 @@ img {
         padding: 3%;
         padding-right: 5%;
     }
-    #img-hero-row, img{
-        width: 100%;
+    #img-hero-row{
+        width: 50vw;
     }
-    #section-03{
+    #img-section-01{
+        width: 40vw;
+        margin-right: 5vw;
+    }
+    .img-section-03{
+        height: 50vw;
+    }
+    #hero-row-caixa-estilo{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #section-02{
         background-image: linear-gradient(0deg, rgba(13, 13, 13, 0.70) 0%, rgba(13, 13, 13, 0.70) 100%), url('..\\assets\\imagens-varias-roupas.jpg');
         background-size: cover;
         background-attachment: fixed;
     }
 
+    #caixa-texto-redes-socias{
+        width: 50vw;
+    }
     .icone-rede-social{
         height: 40px;
         width: 40px;
