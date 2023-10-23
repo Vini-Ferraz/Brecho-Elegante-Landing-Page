@@ -1,3 +1,4 @@
+/*CONFIGURAÇÕES GERAIS DO CSS*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Outfit:wght@400;500&display=swap');
 *{
     margin: 0;
@@ -17,12 +18,12 @@
     --fonte-cor-laranja: #E96331;
     --fonte-cor-preta-titulo: #000000;
     --fonte-cor-preta-paragrafo: #1E1E1E;
-    --fonte-titulo-tamanho-grande-telas-g: 75px;
-    --fonte-subtitulo-tamanho-grande-telas-g: 45px;
-    --fonte-titulo-tamanho-medio-telas-g: 40px;
-    --fonte-paragrafo-telas-g: 30px;
-    --fonte-footer-tamanho-grande-telas-g: 70px;
-    --fonte-footer-tamanho-medio-telas-g: 35px;
+    --fonte-titulo-tamanho-grande-telas-g: 72px;
+    --fonte-subtitulo-tamanho-grande-telas-g: 42px;
+    --fonte-titulo-tamanho-medio-telas-g: 37px;
+    --fonte-paragrafo-telas-g: 27px;
+    --fonte-footer-tamanho-grande-telas-g: 67px;
+    --fonte-footer-tamanho-medio-telas-g: 32px;
     --fonte-titulo-tamanho-grande-telas-m-p: 40px;
     --fonte-subtitulo-tamanho-grande-telas-m-p: 25px;
     --fonte-titulo-tamanho-medio-telas-m-p: 23px;
@@ -30,7 +31,7 @@
     --fonte-footer-tamanho-grande-telas-m-p: 35px;
     --fonte-footer-tamanho-medio-telas-m-p: 20px;
 }
-
+/*REGRAS QUE SÃO IGUAIS PARA TODOS OS TAMANHOS DE TELAS*/
 .fonte-titulos{
     font-family: 'Oswald', sans-serif;
 }
@@ -61,12 +62,12 @@
 .center{
     text-align: center;
 }
-
-button:hover{
+button:hover, .img-section-03:hover{
     transform: scale(1.03);
 }
-
+/*MEDIA QUERY PARA CELULARES*/
 @media (max-width: 700px) {
+    /*REGRAS GERAIS DE ESPAÇAMENTO E TAMANHO DE FONTES*/
     .padding-top-bottom{
         padding-top: 15%;
         padding-bottom: 15%;
@@ -111,6 +112,7 @@ button:hover{
     .fonte-conteudo-footer{
         font-size: var(--fonte-footer-tamanho-medio-telas-m-p);
     }
+    /*REGRAS PARA FLEX-BOX*/
     #section-02, #icone-caixa-estilo{
         display: flex;
     }
@@ -123,7 +125,7 @@ button:hover{
     #icone-caixa-estilo{
         justify-content: space-evenly;
     }
-
+    /*REGRAS PARA ELEMENTOS MUITO ESPECÍFICOS*/
     #btn{
         border-radius: 10px 10px 50px 10px; 
         box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25); 
@@ -138,13 +140,14 @@ button:hover{
         background-size: cover;
         background-attachment: fixed;
     }
-
     .icone-rede-social{
         height: 40px;
         width: 40px;
     }
 }
+/*MEDIA QUERY PARA TABLETS*/
 @media (min-width: 700px) {
+    /*REGRAS GERAIS DE ESPAÇAMENTO E TAMANHO DE FONTES*/
     .padding-top-bottom{
         padding-top: 10%;
         padding-bottom: 10%;
@@ -186,6 +189,7 @@ button:hover{
     .fonte-conteudo-footer{
         font-size: var(--fonte-footer-tamanho-medio-telas-m-p);
     }
+     /*REGRAS PARA FLEX-BOX*/
     #icone-caixa-estilo, #hero-row, #hero-row-caixa-estilo, #section-01, #section-02, #texto-caixa-section-01, #section-03, #img-box-section-03, #caixa-texto-estilo-section-03, #caixa-texto-redes-socias-alinhamento, #img-section-box-03 {
         display: flex;
     }
@@ -201,8 +205,7 @@ button:hover{
     #icone-caixa-estilo, #img-section-box-03{
         justify-content: space-evenly;
     }
-    
-
+    /*REGRAS PARA ELEMENTOS MUITO ESPECÍFICOS*/
     #btn{
         border-radius: 10px 10px 50px 10px; 
         box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25); 
@@ -246,7 +249,9 @@ button:hover{
         width: 40px;
     }
 }
+/*MEDIA QUERY PARA DESKTOPS*/
 @media (min-width: 1200px) {
+    /*REGRAS GERAIS DE ESPAÇAMENTO E TAMANHO DE FONTES*/
     .padding-top-bottom{
         padding-top: 7%;
         padding-bottom: 7%;
@@ -258,7 +263,6 @@ button:hover{
     .padding-bottom{
         padding-bottom: 7%;
     }
-    
     .espaço-linha{
         line-height: 170%;
     }
@@ -280,8 +284,7 @@ button:hover{
     .fonte-conteudo-footer{
         font-size: var(--fonte-footer-tamanho-medio-telas-g);
     }
-    
-
+    /*REGRAS PARA ELEMENTOS MUITO ESPECÍFICOS*/
     #btn{
         border-radius: 10px 10px 50px 10px; 
         box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25); 
@@ -291,12 +294,10 @@ button:hover{
     #img-hero-row{
         width: 47vw;
     }
-
     .img-section-03{
         width: 300px;
         height: 500px; 
     }
-    
     .icone-rede-social{
         height: 50px;
         width: 50px;
