@@ -249,6 +249,7 @@ button:hover, .img-section-03:hover{
     }
     #img-hero-row{
         width: 50vw;
+        height: 100%;
     }
     #img-section-01{
         width: 40vw;
@@ -335,6 +336,7 @@ button:hover, .img-section-03:hover{
     }
     #img-hero-row{
         width: 47vw;
+        height: 100%;
     }
     .img-section-03{
         width: 300px;
