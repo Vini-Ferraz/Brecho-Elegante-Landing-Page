@@ -81,12 +81,8 @@ button:hover,
 }
 #btnPopUp {
   position: relative;
-  right: -10vw;
-  top: -2.5vw;
-  font-size: 1.5vw;
   background-color: var(--fonte-cor-laranja);
   color: var(--fonte-cor-preta-titulo);
-  padding: 0.5vw 1vw;
   border-radius: 50%;
   cursor: pointer;
 }
