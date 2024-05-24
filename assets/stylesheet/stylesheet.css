@@ -82,7 +82,8 @@ button:hover,
 #btnPopUp {
   position: relative;
   background-color: var(--fonte-cor-laranja);
-  color: var(--fonte-cor-preta-titulo);
+  color: var(--fonte-cor-branca-paragrafo);
+  font-weight: bolder;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -175,7 +176,7 @@ button:hover,
         rgba(13, 13, 13, 0.7) 0%,
         rgba(13, 13, 13, 0.7) 100%
       ),
-      url("..\\assets\\imagens-varias-roupas.jpg");
+      url("../imagens/imagens-varias-roupas.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -310,7 +311,7 @@ button:hover,
         rgba(13, 13, 13, 0.7) 0%,
         rgba(13, 13, 13, 0.7) 100%
       ),
-      url("..\\assets\\imagens-varias-roupas.jpg");
+      url("../imagens/imagens-varias-roupas.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
