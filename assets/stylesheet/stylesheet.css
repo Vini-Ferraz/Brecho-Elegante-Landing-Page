@@ -20,12 +20,12 @@
   --fonte-cor-preta-paragrafo: #1e1e1e;
   --fonte-titulo-tamanho-grande-telas-g: 72px;
   --fonte-subtitulo-tamanho-grande-telas-g: 42px;
-  --fonte-titulo-tamanho-medio-telas-g: 37px;
-  --fonte-paragrafo-telas-g: 27px;
+  --fonte-titulo-tamanho-medio-telas-g: 25px;
+  --fonte-paragrafo-telas-g: 20px;
   --fonte-footer-tamanho-grande-telas-g: 67px;
   --fonte-footer-tamanho-medio-telas-g: 32px;
   --fonte-titulo-tamanho-grande-telas-m-p: 40px;
-  --fonte-subtitulo-tamanho-grande-telas-m-p: 25px;
+  --fonte-subtitulo-tamanho-grande-telas-m-p: 20px;
   --fonte-titulo-tamanho-medio-telas-m-p: 23px;
   --fonte-paragrafo-telas-m-p: 18px;
   --fonte-footer-tamanho-grande-telas-m-p: 35px;
@@ -120,7 +120,7 @@ button:hover,
     font-size: var(--fonte-titulo-tamanho-grande-telas-m-p);
   }
   .fonte-subtitulo-grande {
-    font-size: var(--fonte-subtitulo-tamanho-grande-telas-m-p);
+    font-size: var(--fonte-titulo-tamanho-medio-telas-m-p);
   }
   .fonte-titulo-medio {
     font-size: var(--fonte-titulo-tamanho-medio-telas-m-p);
@@ -349,7 +349,7 @@ button:hover,
     font-size: var(--fonte-titulo-tamanho-grande-telas-g);
   }
   .fonte-subtitulo-grande {
-    font-size: var(--fonte-subtitulo-tamanho-grande-telas-g);
+    font-size: var(--fonte-titulo-tamanho-medio-telas-g);
   }
   .fonte-titulo-medio {
     font-size: var(--fonte-titulo-tamanho-medio-telas-g);
