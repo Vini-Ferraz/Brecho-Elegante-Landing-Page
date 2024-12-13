@@ -187,7 +187,7 @@ button:hover,
         rgba(13, 13, 13, 0.7) 0%,
         rgba(13, 13, 13, 0.7) 100%
       ),
-      url("../imagens/imagens-varias-roupas.jpg");
+      url("../imagens/imagens-varias-roupas.webp");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -330,7 +330,7 @@ button:hover,
         rgba(13, 13, 13, 0.7) 0%,
         rgba(13, 13, 13, 0.7) 100%
       ),
-      url("../imagens/imagens-varias-roupas.jpg");
+      url("../imagens/imagens-varias-roupas.webp");
     background-size: cover;
     background-attachment: fixed;
   }
