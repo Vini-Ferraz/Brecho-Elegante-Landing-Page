@@ -170,11 +170,12 @@ button:hover,
     padding: 1vw 2.5vw;
   }
   #btn {
+    display: inline-block;
     border-radius: 10px 10px 50px 10px;
     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
     padding: 3%;
     padding-right: 5%;
-    width: 300px;
+    width: 65%;
   }
   #img-hero-row,
   img {
